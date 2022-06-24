@@ -19,7 +19,7 @@ import java.util.List;
 @CrossOrigin
 public class RiderController {
 
-    private RiderService service;
+    private RiderService service
 
     @GetMapping
     public ResponseEntity<List<RiderDTO>> getRiders(@RequestParam(name = "team", required = false) String teamName){
