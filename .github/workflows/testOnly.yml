@@ -3,9 +3,6 @@ name: Maven CI
 on:
   push:
     branches-ignore: [ main ]
-    
-env:
-  API_TOKEN: ${{ secrets.API_TOKEN }}
 
 jobs:
   build:
